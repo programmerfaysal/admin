@@ -1,0 +1,127 @@
+#navbar_top{
+    z-index: 999;
+}
+.sidebar-bg{
+    background: #000;
+}
+
+.sidebar li .submenu{ 
+	list-style: none; 
+	margin: 0; 
+	padding: 0; 
+	padding-left: 1rem; 
+	padding-right: 1rem;
+    transition: all .3s;
+}
+
+.sidebar .nav-link {
+    font-weight: 500;
+    font-size: 18px;
+    color: #ffd;
+    margin-bottom: 5px;
+}
+.sidebar .nav-link i{
+    margin-right: 10px;
+    color: #b30000;
+}
+.sidebar .nav-link:hover {
+    color: #fff;
+    background-color: #b30000;
+    border-radius: 5px;
+}
+.sidebar .nav-link:hover i {
+    color: #fff;
+}
+.sidebar .active {
+    color: #fff !important;
+    background-color: #b30000;
+    border-radius: 5px;
+}
+.sidebar .active i{
+    color: #fff !important;
+}
+
+.analytics{
+    border-radius: 5px;
+}
+.analytics i {
+    font-size: 80px;
+    color: #ffffff38;
+    position: absolute;
+}
+.analytics div{
+    z-index: 1;
+}
+.analytics div h2{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+.analytics div p{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+.paginate_button {
+    padding: 5px 10px;
+    background: #0d6efd;
+    color: #fff;
+    margin: 3px;
+    border-radius: 4px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.paginate_button:hover {
+    background: #005791;
+    color: #fff;
+}
+.disabled{
+    background: #ddd;
+    color: #000;
+}
+.current{
+    background: #005791;
+    color: #fff;
+}
+
+
+.user_form{}
+.user_form .input-group {}
+.user_form .input-group .input-group-text {
+    width: 130px;
+    font-size: 18px;
+    font-weight: 600;
+    background: #b5b5b5;
+    padding: 10px;
+}
+.user_form .input-group .form-control {
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 500;
+}
+.user_form .sub-btn {
+    width: auto;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 500;
+    text-align: center;
+    background: brown;
+    color: #fff;
+    margin: 0 auto;
+}
+.user_form .icon {
+    border: 5px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+.user_form .icon i {
+    position: absolute;
+    font-size: 50px;
+    padding: 27% 45%;
+    left: 0;
+    top: 0;
+}
