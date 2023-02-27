@@ -90,11 +90,12 @@
 .user_form{}
 .user_form .input-group {}
 .user_form .input-group .input-group-text {
-    width: 130px;
-    font-size: 18px;
+    /* width: 175px; */
+    font-size: 20px;
     font-weight: 600;
-    background: #b5b5b5;
-    padding: 10px;
+    background: #6c6c6c;
+    padding: 5px;
+    color: #fff;
 }
 .user_form .input-group .form-control {
     font-size: 18px;
@@ -107,23 +108,32 @@
     padding: 10px;
     font-weight: 500;
     text-align: center;
-    background: brown;
+    background: rgb(0, 160, 75);
     color: #fff;
     margin: 0 auto;
 }
 .user_form .icon {
-    border: 5px solid #ddd;
-    border-radius: 10px;
-    text-align: center;
-    padding: 10px;
     position: relative;
+    display: flex;
+    margin: 0px 70px;
+    border-radius: 500%;
+    border: 3px solid #6c6c6c;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.user_form .icon img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
 .user_form .icon i {
-    position: absolute;
     font-size: 50px;
-    padding: 27% 45%;
-    left: 0;
-    top: 0;
+    color: #6c6c6c;
 }
 
 .table {}
@@ -151,3 +161,71 @@
     height: 50px;
     border-radius: 50%;
 }
+
+/* Membership Page */
+.member {
+    text-align: center;
+}
+.member h1 {
+    font-size: 30px;
+    color: #484848;
+}
+.member .member-user {}
+.member .member-user .user-image {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border: 5px solid #9d9b9b;
+}
+.member .member-user .user-image img{
+    width: 100%;
+    height: 100%;
+}
+.member .member-user .user-data {
+    border-left: 5px solid #aaa;
+}
+.member .member-user .user-data .table {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+}
+.member .member-user .user-data .table tr {
+    border-style: solid;
+    border-color: #ddd;
+    border-width: 3px 0px;
+}
+.member .member-user .user-data .table tr td {
+    padding: 15px;
+}
+
+
+.package {position: relative;}
+.package .package-table {
+    width: 100%;
+    text-align: center;
+}
+.package #plusCustomPackage {
+    position: absolute;
+    left: 14px;
+    top: 60%;
+    border-radius: 50%;
+    border: 1px solid #000;
+    width: auto;
+    font-size: 21px;
+    background: #fff;
+    padding: 5px;
+    cursor: pointer;
+}
+.package .package-table tr{}
+.package .package-table tr td {
+    border: 1px solid #3e3e3e;
+    padding: 25px 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.package-selecet tr{
+    background: rgb(248, 238, 146);
+}
+.customPackage{display: none;}
+  

@@ -36,3 +36,11 @@ document.addEventListener("DOMContentLoaded", function(){
   $(document).ready(function () {
     $('#table').DataTable();
 });
+
+
+
+$(document).ready(function(){
+    $("#plusCustomPackage").click(function(){
+      $(".customPackage").toggle("slow");
+    });
+  });
